@@ -64,8 +64,9 @@ path = robot_path(robot_pos_c, robot_pos_d)
 
 ## Espera-se que o mesmo código de cima funcione com esse cenário.
 
-  path = robot_path(robot_pos_c, robot_pos_d, occupancy)
-
+```
+path = robot_path(robot_pos_c, robot_pos_d, occupancy)
+```
 ## A resolução e feita em 3 arquivos, o ***Robot.py*** que responsável pela parte da resolução do problema, o ***Grafo.py*** que serve para criar No e Aresta(funções para gerenciamento um grafo) e o ***matriz.py*** que responsável por cria matriz(funções para gerenciamento uma matriz).
 
 ## O algoritmo busca resolver o problema dos caminho minímo, por meio da implementação do algoritmo de  ***Dijkstra***, que está dentro do arquivo ***grafo.py***
