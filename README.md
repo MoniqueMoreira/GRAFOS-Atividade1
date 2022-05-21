@@ -66,18 +66,19 @@ path = robot_path(robot_pos_c, robot_pos_d)
 
   path = robot_path(robot_pos_c, robot_pos_d, occupancy)
 
-## A resolução e feita em 3 arquivos, o ***Robot.py*** que responsável pela parte da resolução do problema, o ***Grafo.PY*** que serve para criar No e Aresta(funções para gerenciamento um grafo) e o ***matriz.py*** que responsável por cria matriz(funções para gerenciamento uma matriz).
+## A resolução e feita em 3 arquivos, o ***Robot.py*** que responsável pela parte da resolução do problema, o ***Grafo.py*** que serve para criar No e Aresta(funções para gerenciamento um grafo) e o ***matriz.py*** que responsável por cria matriz(funções para gerenciamento uma matriz).
 
-## O algoritmo busca resolver o problema dos caminho minímo, por meio da implementação do algoritmo de  ***Dijkstra***.
+## O algoritmo busca resolver o problema dos caminho minímo, por meio da implementação do algoritmo de  ***Dijkstra***, que está dentro do arquivo ***grafo.py***
+> Dijkstra()
 
 ## Entrada: 
-  Matriz[10][10], posição inicial [9,0], posicão final [0,2]
+  Matriz[10][10], posição inicial [9,0], posição final [0,2]
 ## Saída:
   Caminho minímo[]
 ## Exemplo de execução:
 ### Caso 1: Terreno uniforme (1's)
 ![Screenshot](caso1.png)
-### Caso 1: Terreno não uniforme (Float)
+### Caso 2: Terreno não uniforme (Float)
 ![Screenshot](caso2.png)
-### Caso 1: Terreno não uniforme (Float)
+### Caso 3: Terreno não uniforme (Float)
 ![Screenshot](caso3.png)
